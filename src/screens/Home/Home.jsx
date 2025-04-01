@@ -6,8 +6,8 @@ export default function Home() {
             <form className="flex flex-col h-96 w-96 bg-white rounded-lg p-6 shadow-lg">
                 <h1 className="text-center text-3xl">Sign in With</h1>
                 <div className="flex  flex-col items-start mx-auto mt-5">
-                    <label className="font-semibold">Username</label>
-                    <input type="text" className="border rounded-lg bg-slate-200 w-60 p-1"/>
+                    <label className="font-semibold">Email</label>
+                    <input type="email" className="border rounded-lg bg-slate-200 w-60 p-1"/>
                 </div>
 
                 <div className="flex flex-col items-start mx-auto mt-5">
